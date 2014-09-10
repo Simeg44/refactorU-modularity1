@@ -1,0 +1,100 @@
+.tableSpaces td  { 
+	line-height: 40px;
+	border-bottom: 1px solid #b2b2b2;
+}
+
+.tableSpaces th {
+	line-height: 40px;
+	border-bottom: 1px solid #b2b2b2;
+}
+
+.tableSpaces tr:last-child td {
+	border-bottom: none;
+}
+
+.tableSpaces {
+	width: 100%;
+}
+
+#stats-order div:first-child {
+	font-size: 35px;
+	font-weight: bolder;
+	padding: 15px 20px;
+	margin-bottom: -10px;
+}
+
+#stats-order div:last-child {
+	font-size: 12px;
+	text-align: center;
+	color: #b2b2b2;
+	padding-bottom: 15px;
+}
+
+#stats-order {
+	border-bottom: 1px solid #b2b2b2;
+	border-top: 1px solid #b2b2b2;
+}
+
+#barChart div {
+	height: 20px;
+	background-color: #63B1E6;
+	color: white;
+	padding: 2px 0px 1px 5px;
+	margin-right: 600px;
+	border-radius: 5px;
+}
+
+#barChart th {
+	text-align: right;
+	padding-right: 5px;
+}
+
+
+/*#lightbox > div {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.8);
+	font-size: 17px;
+}
+
+#lightbox > div > div{
+	width: 570px;
+	position: fixed;
+	top: 25%;
+	left: 25%;
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+}*/
+
+.close-button {
+	background: #FF8585;
+	width: 125px;
+	height: 40px;
+	border-radius: 5px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 40px;
+	color: white;
+	float:right;
+	margin: 10px;
+}
+
+.media-block p{
+	display: inline-block;
+	width: 600px;
+}
+
+.media-block-alt {
+	/*display: inline-block;*/
+	overflow: hidden;
+	padding-left: 5px;
+}
+
+.media-image {
+	float: left;
+}
+
